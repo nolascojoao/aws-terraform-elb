@@ -2,6 +2,17 @@
 
 Laboratório em Terraform para provisionamento de uma VPC, subnets, EC2 com servidor web exibindo uma mensagem HTML personalizada e um Load Balancer na AWS. A mensagem HTML informa qual das duas instâncias EC2 está sendo acessada, com base no balanceamento de carga.
 
+#
+
+```
+aws-terraform-elb-/
+├── main.tf
+├── outputs.tf
+├── providers.tf
+├── variables.tf
+└── .gitignore
+```
+
 ---
 
 ## 🚀 Como Executar
