@@ -1,0 +1,18 @@
+# Diretórios e arquivos do Terraform
+.terraform/
+
+# Arquivos de estado
+terraform.tfstate
+terraform.tfstate.backup
+
+# Arquivos de estado remotos
+*.tfstate.*
+
+# Arquivos de lock
+.terraform.lock.hcl
+
+# Arquivos de configuração sensíveis
+*.tfvars
+
+# Arquivos de saída temporários
+*.log
